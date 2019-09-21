@@ -1,0 +1,365 @@
+<div class="fixtures__match-date">
+
+    <div class="fixtures-date fixtures__match-day">
+        <span class="fixtures-date__day">
+            Saturday
+        </span>
+        <span class="fixtures-date__day-number">
+            21
+        </span>
+        <span class="fixtures-date__month">
+            September
+        </span>
+    </div>
+
+    <div class="fixtures__match-wrapper fixtures__match-wrapper--upcoming fixtures__match-wrapper--pool-d js-match"
+         data-match-time="1569041100000" data-match-id="25291" data-match-status="U">
+        <div class="fixtures__match">
+            <span class="fixtures__match-block"></span>
+            <span class="fixtures__match-content">
+                <div class="fixtures__match-meta">
+
+                    <div class="fixtures-date fixtures__date fixtures__date--long">
+                        <span class="fixtures-date__day">
+                            Saturday
+                        </span>
+                        <span class="fixtures-date__day-number">
+                            21
+                        </span>
+                        <span class="fixtures-date__month">
+                            September
+                        </span>
+                    </div>
+
+                    <div class="fixtures-date fixtures__date fixtures__date--short">
+                        <span class="fixtures-date__day">
+                            Sat
+                        </span>
+                        <span class="fixtures-date__day-number">
+                            21
+                        </span>
+                        <span class="fixtures-date__month">
+                            September
+                        </span>
+                    </div>
+
+                    <div class="fixtures__match-times">
+                        <div class="fixtures__time fixtures__time--your-time">
+                            <span class="bold js-your-time"></span>
+                            Your Time
+                        </div>
+                        <div class="fixtures__time fixtures__time--local-time">
+                            <span class="bold">13:45</span>
+                            Local Time
+                        </div>
+                    </div>
+                </div>
+                <div class="fixtures__match-info-container">
+                    <a class="fixtures__match-link--flags" href="/match/25291">
+                        <div class="fixtures__match-flags fixtures__match-flags--medium">
+                            <span class="fixtures__flag fixtures__flag--a team-badge-sm AUS"></span>
+                            <span class="fixtures__flag fixtures__flag--b team-badge-sm FIJ"></span>
+                        </div>
+                        <div class="fixtures__match-flags fixtures__match-flags--small">
+                            <span class="fixtures__flag fixtures__flag--a team-badge-xs AUS"></span>
+                            <span class="fixtures__flag fixtures__flag--b team-badge-xs FIJ"></span>
+                        </div>
+                    </a>
+                    <div class="fixtures__match-info">
+                        <a class="fixtures__match-link--info" href="/match/25291">
+                            <div class="fixtures__teams">
+                                Australia
+                                v
+                                Fiji
+                            </div>
+                            <span class="fixtures__event-phase">Pool D</span>
+                            <span class="fixtures__venue">Sapporo Dome, Sapporo</span>
+                            <div class="fixtures__time fixtures__time--local-time-mobile">
+                                <span class="bold">13:45</span>
+                                Local Time
+                            </div>
+                        </a>
+                        <div class="fixtures__match-info-broadcaster js-match-broadcaster"></div>
+                    </div>
+                    <div class="fixtures__match-score">
+                        <a class="fixtures__match-link--score" href="/match/25291">
+                            <div class="fixtures__team fixtures__team--a ">
+                                <span class="fixtures__team-name">Australia
+                                    <span class="fixtures__team-name-win">Win</span>
+                                </span>
+                                <span class="fixtures__team-score js-team-a-score">0</span>
+                            </div>
+                            <div class="fixtures__team fixtures__team--b ">
+                                <span class="fixtures__team-name">Fiji
+                                    <span class="fixtures__team-name-win">Win</span>
+                                </span>
+                                <span class="fixtures__team-score js-team-b-score">0</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="fixtures__chevron-icon" href="/match/25291">
+                        <svg class="icon ">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a href="/tickets" class="fixtures__match-tickets">
+                    <div class="fixtures__ticket-info">
+                        Ticket
+                        <div class="light-colour">Info</div>
+                        <svg class="icon icon-mobile">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                        </svg>
+                    </div>
+                    <div class="fixtures__ticket-more-details">
+                        More Details
+                        <svg class="icon ">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                        </svg>
+                    </div>
+                </a>
+            </span>
+        </div>
+
+        <div class="fixtures__match-centre js-match-live"></div>
+        <div class="fixtures__match-highlights js-match-highlights"></div>
+        <div class="fixtures__classic-highlights js-classic-highlights"></div>
+    </div>
+    <div class="fixtures__match-wrapper fixtures__match-wrapper--upcoming fixtures__match-wrapper--pool-c js-match"
+         data-match-time="1569050100000" data-match-id="25292" data-match-status="U">
+        <div class="fixtures__match">
+            <span class="fixtures__match-block"></span>
+            <span class="fixtures__match-content">
+                <div class="fixtures__match-meta">
+
+                    <div class="fixtures-date fixtures__date fixtures__date--long">
+                        <span class="fixtures-date__day">
+                            Saturday
+                        </span>
+                        <span class="fixtures-date__day-number">
+                            21
+                        </span>
+                        <span class="fixtures-date__month">
+                            September
+                        </span>
+                    </div>
+
+                    <div class="fixtures-date fixtures__date fixtures__date--short">
+                        <span class="fixtures-date__day">
+                            Sat
+                        </span>
+                        <span class="fixtures-date__day-number">
+                            21
+                        </span>
+                        <span class="fixtures-date__month">
+                            September
+                        </span>
+                    </div>
+
+                    <div class="fixtures__match-times">
+                        <div class="fixtures__time fixtures__time--your-time">
+                            <span class="bold js-your-time"></span>
+                            Your Time
+                        </div>
+                        <div class="fixtures__time fixtures__time--local-time">
+                            <span class="bold">16:15</span>
+                            Local Time
+                        </div>
+                    </div>
+                </div>
+                <div class="fixtures__match-info-container">
+                    <a class="fixtures__match-link--flags" href="/match/25292">
+                        <div class="fixtures__match-flags fixtures__match-flags--medium">
+                            <span class="fixtures__flag fixtures__flag--a team-badge-sm FRA"></span>
+                            <span class="fixtures__flag fixtures__flag--b team-badge-sm ARG"></span>
+                        </div>
+                        <div class="fixtures__match-flags fixtures__match-flags--small">
+                            <span class="fixtures__flag fixtures__flag--a team-badge-xs FRA"></span>
+                            <span class="fixtures__flag fixtures__flag--b team-badge-xs ARG"></span>
+                        </div>
+                    </a>
+                    <div class="fixtures__match-info">
+                        <a class="fixtures__match-link--info" href="/match/25292">
+                            <div class="fixtures__teams">
+                                France
+                                v
+                                Argentina
+                            </div>
+                            <span class="fixtures__event-phase">Pool C</span>
+                            <span class="fixtures__venue">Tokyo Stadium, Tokyo</span>
+                            <div class="fixtures__time fixtures__time--local-time-mobile">
+                                <span class="bold">16:15</span>
+                                Local Time
+                            </div>
+                        </a>
+                        <div class="fixtures__match-info-broadcaster js-match-broadcaster"></div>
+                    </div>
+                    <div class="fixtures__match-score">
+                        <a class="fixtures__match-link--score" href="/match/25292">
+                            <div class="fixtures__team fixtures__team--a ">
+                                <span class="fixtures__team-name">France
+                                    <span class="fixtures__team-name-win">Win</span>
+                                </span>
+                                <span class="fixtures__team-score js-team-a-score">0</span>
+                            </div>
+                            <div class="fixtures__team fixtures__team--b ">
+                                <span class="fixtures__team-name">Argentina
+                                    <span class="fixtures__team-name-win">Win</span>
+                                </span>
+                                <span class="fixtures__team-score js-team-b-score">0</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="fixtures__chevron-icon" href="/match/25292">
+                        <svg class="icon ">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a href="/tickets" class="fixtures__match-tickets">
+                    <div class="fixtures__ticket-info">
+                        Ticket
+                        <div class="light-colour">Info</div>
+                        <svg class="icon icon-mobile">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                        </svg>
+                    </div>
+                    <div class="fixtures__ticket-more-details">
+                        More Details
+                        <svg class="icon ">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                        </svg>
+                    </div>
+                </a>
+            </span>
+        </div>
+
+        <div class="fixtures__match-centre js-match-live"></div>
+        <div class="fixtures__match-highlights js-match-highlights"></div>
+        <div class="fixtures__classic-highlights js-classic-highlights"></div>
+    </div>
+    <div class="fixtures__match-wrapper fixtures__match-wrapper--upcoming fixtures__match-wrapper--pool-b js-match"
+         data-match-time="1569059100000" data-match-id="25293" data-match-status="U">
+        <div class="fixtures__match">
+            <span class="fixtures__match-block"></span>
+            <span class="fixtures__match-content">
+                <div class="fixtures__match-meta">
+
+                    <div class="fixtures-date fixtures__date fixtures__date--long">
+                        <span class="fixtures-date__day">
+                            Saturday
+                        </span>
+                        <span class="fixtures-date__day-number">
+                            21
+                        </span>
+                        <span class="fixtures-date__month">
+                            September
+                        </span>
+                    </div>
+
+                    <div class="fixtures-date fixtures__date fixtures__date--short">
+                        <span class="fixtures-date__day">
+                            Sat
+                        </span>
+                        <span class="fixtures-date__day-number">
+                            21
+                        </span>
+                        <span class="fixtures-date__month">
+                            September
+                        </span>
+                    </div>
+
+                    <div class="fixtures__match-times">
+                        <div class="fixtures__time fixtures__time--your-time">
+                            <span class="bold js-your-time"></span>
+                            Your Time
+                        </div>
+                        <div class="fixtures__time fixtures__time--local-time">
+                            <span class="bold">18:45</span>
+                            Local Time
+                        </div>
+                    </div>
+                </div>
+                <div class="fixtures__match-info-container">
+                    <a class="fixtures__match-link--flags" href="/match/25293">
+                        <div class="fixtures__match-flags fixtures__match-flags--medium">
+                            <span class="fixtures__flag fixtures__flag--a team-badge-sm NZL"></span>
+                            <span class="fixtures__flag fixtures__flag--b team-badge-sm RSA"></span>
+                        </div>
+                        <div class="fixtures__match-flags fixtures__match-flags--small">
+                            <span class="fixtures__flag fixtures__flag--a team-badge-xs NZL"></span>
+                            <span class="fixtures__flag fixtures__flag--b team-badge-xs RSA"></span>
+                        </div>
+                    </a>
+                    <div class="fixtures__match-info">
+                        <a class="fixtures__match-link--info" href="/match/25293">
+                            <div class="fixtures__teams">
+                                New Zealand
+                                v
+                                South Africa
+                            </div>
+                            <span class="fixtures__event-phase">Pool B</span>
+                            <span class="fixtures__venue">International Stadium Yokohama, Kanagawa Prefecture, Yokohama
+                                City
+                            </span>
+                            <div class="fixtures__time fixtures__time--local-time-mobile">
+                                <span class="bold">18:45</span>
+                                Local Time
+                            </div>
+                        </a>
+                        <div class="fixtures__match-info-broadcaster js-match-broadcaster"></div>
+                    </div>
+                    <div class="fixtures__match-score">
+                        <a class="fixtures__match-link--score" href="/match/25293">
+                            <div class="fixtures__team fixtures__team--a ">
+                                <span class="fixtures__team-name">New Zealand
+                                    <span class="fixtures__team-name-win">Win</span>
+                                </span>
+                                <span class="fixtures__team-score js-team-a-score">0</span>
+                            </div>
+                            <div class="fixtures__team fixtures__team--b ">
+                                <span class="fixtures__team-name">South Africa
+                                    <span class="fixtures__team-name-win">Win</span>
+                                </span>
+                                <span class="fixtures__team-score js-team-b-score">0</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="fixtures__chevron-icon" href="/match/25293">
+                        <svg class="icon ">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a href="/tickets" class="fixtures__match-tickets">
+                    <div class="fixtures__ticket-info">
+                        Ticket
+                        <div class="light-colour">Info</div>
+                        <svg class="icon icon-mobile">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                        </svg>
+                    </div>
+                    <div class="fixtures__ticket-more-details">
+                        More Details
+                        <svg class="icon ">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                        </svg>
+                    </div>
+                </a>
+            </span>
+        </div>
+
+        <div class="fixtures__match-centre js-match-live"></div>
+        <div class="fixtures__match-highlights js-match-highlights"></div>
+        <div class="fixtures__classic-highlights js-classic-highlights"></div>
+    </div>
+</div>

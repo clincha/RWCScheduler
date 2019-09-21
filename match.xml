@@ -1,0 +1,80 @@
+<div class="fixtures__match-wrapper fixtures__match-wrapper--upcoming fixtures__match-wrapper--pool-d js-match"
+     data-match-time="1569041100000" data-match-id="25291" data-match-status="U">
+    <div class="fixtures__match">
+        <span class="fixtures__match-content">
+            <div class="fixtures__match-meta">
+                <div class="fixtures__match-times">
+                    <div class="fixtures__time fixtures__time--your-time">
+                        <span class="bold js-your-time"></span>
+                        Your Time
+                    </div>
+                    <div class="fixtures__time fixtures__time--local-time">
+                        <span class="bold">13:45</span>
+                        Local Time
+                    </div>
+                </div>
+            </div>
+            <div class="fixtures__match-info-container">
+                <div class="fixtures__match-info">
+                    <a class="fixtures__match-link--info" href="/match/25291">
+                        <div class="fixtures__teams">
+                            Australia
+                            v
+                            Fiji
+                        </div>
+                        <span class="fixtures__event-phase">Pool D</span>
+                        <span class="fixtures__venue">Sapporo Dome, Sapporo</span>
+                        <div class="fixtures__time fixtures__time--local-time-mobile">
+                            <span class="bold">13:45</span>
+                            Local Time
+                        </div>
+                    </a>
+                    <div class="fixtures__match-info-broadcaster js-match-broadcaster"></div>
+                </div>
+                <div class="fixtures__match-score">
+                    <a class="fixtures__match-link--score" href="/match/25291">
+                        <div class="fixtures__team fixtures__team--a ">
+                            <span class="fixtures__team-name">Australia
+                                <span class="fixtures__team-name-win">Win</span>
+                            </span>
+                            <span class="fixtures__team-score js-team-a-score">0</span>
+                        </div>
+                        <div class="fixtures__team fixtures__team--b ">
+                            <span class="fixtures__team-name">Fiji
+                                <span class="fixtures__team-name-win">Win</span>
+                            </span>
+                            <span class="fixtures__team-score js-team-b-score">0</span>
+                        </div>
+                    </a>
+                </div>
+                <a class="fixtures__chevron-icon" href="/match/25291">
+                    <svg class="icon ">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                             xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+            <a href="/tickets" class="fixtures__match-tickets">
+                <div class="fixtures__ticket-info">
+                    Ticket
+                    <div class="light-colour">Info</div>
+                    <svg class="icon icon-mobile">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                             xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                    </svg>
+                </div>
+                <div class="fixtures__ticket-more-details">
+                    More Details
+                    <svg class="icon ">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                             xlink:href="/resources/prod/v1.12.0/i/sprite-svg/sprite.svg#icons-external"></use>
+                    </svg>
+                </div>
+            </a>
+        </span>
+    </div>
+
+    <div class="fixtures__match-centre js-match-live"></div>
+    <div class="fixtures__match-highlights js-match-highlights"></div>
+    <div class="fixtures__classic-highlights js-classic-highlights"></div>
+</div>
