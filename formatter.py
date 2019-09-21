@@ -1,17 +1,30 @@
-import os
+from datetime import datetime, timedelta
 
-from lxml import html
 import requests
+from lxml import etree
+from lxml import html
+
+# Create an html file to output to
+file = open("output.html", "wb")
+
+root = etree.Element("html")
+head = etree.SubElement(root, "head")
+head.append(etree.Element("link", rel="stylesheet", href="css.css", type="text/css"))
+body = etree.SubElement(root, "body")
+table = etree.SubElement(body, "table", id="table")
+header = etree.SubElement(table, "tr")
+
+c1 = etree.SubElement(header, "th")
+c2 = etree.SubElement(header, "th")
+c3 = etree.SubElement(header, "th")
+
+c1.text = "Match Date"
+c2.text = "Teams"
+c3.text = "Match Time"
 
 # Get the page from the RWC site and parse it
 page = requests.get('https://www.rugbyworldcup.com/matches')
 tree = html.fromstring(page.content)
-
-# Create file with contents of web page for debugging
-os.remove("page.html")
-file = open("page.html", "wb")
-file.write(page.content)
-file.close()
 
 # Get a list of all the match dates
 dates = tree.xpath('//div[@class="fixtures__match-date"]')
@@ -21,7 +34,7 @@ for date in dates:
     day = str(matchDay.xpath('span[@class="fixtures-date__day-number"]/text()')[0])
     month = str(matchDay.xpath('span[@class="fixtures-date__month"]/text()')[0])
 
-    print(str(month.replace(" ", "") + " " + day.replace(" ", "")).replace("\n", ""))
+    matchDate = str(month.replace(" ", "") + " " + day.replace(" ", "")).replace("\n", "")
 
     matches = date.xpath('div[contains(@class,"fixtures__match-wrapper")]')
     for match in matches:
@@ -42,7 +55,19 @@ for date in dates:
                      '/text()'
 
         localMatchTime = match.xpath(matchTimeXPath)[0]
-        print(localMatchTime)
 
-        teams = match.xpath(teamsXPath)[0]
-        print(str(teams).replace(" ", "").replace("\n", " ").lstrip())
+        datetime = datetime.strptime(localMatchTime, '%H:%M') - timedelta(hours=8)
+
+        teams = match.xpath(teamsXPath)[0].replace(" ", "").replace("\n", " ").strip()
+
+        row = etree.SubElement(table, "tr")
+
+        c1 = etree.SubElement(row, "td")
+        c2 = etree.SubElement(row, "td")
+        c3 = etree.SubElement(row, "td")
+
+        c1.text = matchDate
+        c2.text = teams
+        c3.text = datetime.strftime("%H:%M")
+
+file.write(html.tostring(root, pretty_print=True))
